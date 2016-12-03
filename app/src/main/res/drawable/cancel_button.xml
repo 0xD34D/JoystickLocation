@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2016 The CyanogenMod Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48.000001dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48.000001">
+
+    <path
+        android:fillColor="#ffffff"
+        android:fillAlpha="0"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="2"
+        android:pathData="M24,1.65039 C36.3434,1.65039,46.3496,11.6567,46.3496,24
+C46.3496,36.3434,36.3434,46.3496,24,46.3496
+C11.6566,46.3496,1.65038,36.3434,1.65038,24
+C1.65038,11.6567,11.6566,1.65039,24,1.65039 Z" />
+    <path
+        android:fillColor="#000000"
+        android:fillAlpha="0.25098041"
+        android:strokeWidth="2"
+        android:pathData="M24,6.82745 C33.4842,6.82745,41.1726,14.5159,41.1726,24
+C41.1726,33.4841,33.4842,41.1726,24,41.1726
+C14.5158,41.1726,6.82741,33.4841,6.82741,24
+C6.82741,14.5159,14.5158,6.82745,24,6.82745 Z" />
+    <path
+        android:strokeColor="#ffffff"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M14.6245,14.6278 L33.3755,33.3778" />
+    <path
+        android:strokeColor="#ffffff"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M33.3755,14.6278 L14.6245,33.3778" />
+</vector>

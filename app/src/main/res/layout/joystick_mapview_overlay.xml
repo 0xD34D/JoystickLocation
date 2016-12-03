@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/overlay_width"
+    android:layout_height="@dimen/overlay_height"
+    android:theme="@style/AppTheme">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        map:liteMode="false"/>
+
+    <View
+        android:id="@+id/window_mover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"/>
+
+    <!--<ImageView-->
+        <!--android:layout_width="8dp"-->
+        <!--android:layout_height="8dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:src="@drawable/location_blip"/>-->
+
+    <com.scheffsblend.joysticklocation.JoystickView
+        android:id="@+id/joystick"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    <ImageView
+        android:id="@+id/cancel"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/cancel_button"/>
+
+    <CheckBox
+        android:id="@+id/snap_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="top|right"
+        android:button="@drawable/checkbox_joystick_snap_selector"/>
+
+</FrameLayout>
